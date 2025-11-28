@@ -150,7 +150,7 @@ public machine_menu_handler(iPlayer, iMenu, iItem)
 
 create_machine(const Float:vOrigin[3], const Float:vAngles[3])
 {
-    new iEnt = rg_create_entity(CLASSNAME_BASE, true)
+    new iEnt = rg_create_entity(CLASSNAME_BASE)
     if (is_nullent(iEnt))
         return NULLENT
 
